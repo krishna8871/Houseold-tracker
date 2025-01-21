@@ -1,0 +1,27 @@
+{
+  "packageId": "com.expensetracker.app",
+  "name": "Income & Expense Tracker",
+  "launcherName": "ExpenseTracker",
+  "display": "standalone",
+  "themeColor": "#3498db",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#ffffff",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "./icons/icon-512.png",
+  "maskableIconUrl": "./icons/icon-512.png",
+  "monochromeIconUrl": "./icons/icon-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "./manifest.json"
+}
